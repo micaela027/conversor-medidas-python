@@ -1,0 +1,19 @@
+Problematica: 
+"La compañía estadounidense American MeganDesign está realizando un nuevo modelo de muebles basados en los planos del famoso Diseñador italiano Martín Vaccoto pero muchas piezas no han encajado correctamente debido a que los planos están en cms y las maquinarias americanas en pulgadas"
+
+Algoritmo: 
+1. Solicitar al usuario que ingrese las medidas de la pieza del mueble en cms 
+2. Convertir las medidas de cms a pulgadas
+3. Mostrar al usuario las medidas convertidas a pulgadas
+
+Pseudocodigo: 
+Inicio 
+    // Paso 1: Solicitar al usuario que ingrese las medidas de la pieza del mueble en cms
+        Mostrar mensaje "Por favor ingrese las medidas del mueble (en cms)"
+        
+    // Paso 2: Convertir las medidas de cms a pulgadas
+        Convertir medida_en_pulgadas = medida_en_cms / 2.54
+
+    // Paso 3: Mostrar al usuario las medidas convertidas a pulgadas
+        Mostrar mensaje "La medidas de la pieza ingresada son: ", medida_en_pulgadas
+Fin
